@@ -1,0 +1,12 @@
+server.host: "0.0.0.0"
+
+# Elasticsearch connection
+elasticsearch.hosts: ["https://103.91.186.224:8083/"]
+elasticsearch.username: "kibana_system"
+elasticsearch.password: "password"
+
+# Use the provided SSL certificate
+elasticsearch.ssl.certificateAuthorities: ["/usr/share/kibana/config/http_ca.crt"]
+
+# Optional: Enhance security for Kibana
+     # Else remove them
